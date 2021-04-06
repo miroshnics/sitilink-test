@@ -2,12 +2,23 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.btn {
+  border-radius: 50px;
+}
+
+
 .nav-link , .navbar-brand{
   color: #f4f4f4;
   cursor: pointer;
 }
+.navbar-brand div {
+  background-image: url('img/logo.png');
+  width: 61px;
+  height: 67px;
+}
 .nav-link{
   margin-right: 1em !important;
+  font-size: 20px;
 }
 .nav-link:hover{
   background: #f4f4f4;
@@ -44,7 +55,7 @@
 
 .description {
   position: relative;
-  top: 381px;
+  top: 294px;
 }
 
 .description h1{
@@ -52,4 +63,5 @@
   color: white;
   font-size: 112px;
   text-transform: uppercase;
+  line-height: 137px;
 }
