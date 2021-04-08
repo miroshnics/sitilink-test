@@ -58,20 +58,21 @@ a.navbar-brand {
   top: 294px;
 }
 
+h1 {
+  color: #343434;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+  border-bottom: solid 10px #ECBA46;
+}
+
 .description h1{
   font-weight: 900;
   color: white;
   font-size: 112px;
   text-transform: uppercase;
   line-height: 137px;
-}
-
-.prices h1 {
-  color: #343434;
-  font-weight: 800;
-  font-size: 60px;
-  line-height: 73px;
-  border-bottom: solid 10px #ECBA46;
+  border-bottom: none;
 }
 
 div.carousel-item {
@@ -120,6 +121,28 @@ div.carousel-item p.price {
   line-height: 85px;
 }
 
-.container.video {
+div.videocontainer {
   height: 840px;
+  max-width: 100%;
+  margin: 0 60px;
+  border: 2px solid #35312D;
+  background: #35312D;
+  text-align: center;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+h1.light {
+  color: #fff;
+}
+div.videocontainer div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div.video {
+  width: 770px;
+  height: 440px;
+  background-image: url('img/videoplayer.png');
+  background-clip: content;
 }
