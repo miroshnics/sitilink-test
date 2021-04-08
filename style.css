@@ -64,6 +64,7 @@ h1 {
   font-size: 60px;
   line-height: 73px;
   border-bottom: solid 10px #ECBA46;
+  padding-bottom: 15px;
 }
 
 .description h1{
@@ -145,4 +146,14 @@ div.video {
   height: 440px;
   background-image: url('img/videoplayer.png');
   background-clip: content;
+}
+
+.cook-image {
+  height: 450px;
+  background: url('img/cook.png') no-repeat;
+}
+
+.about-text {
+  padding-top: 50px;
+  font-size: 18px;
 }
