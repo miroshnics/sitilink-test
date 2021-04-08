@@ -108,17 +108,18 @@ div.carousel-item img {
 
 div.carousel-item p.desc {
   color: #343434;
-  font-weight: 500;
   font-size: 30px;
+  font-weight: 500;
   line-height: 37px;
 }
 
 div.carousel-item p.price {
   color: #ECBA46;
-  font-weight: 300;
   font-size: 70px;
+  font-weight: 300;
   line-height: 85px;
 }
-div.carousel-item p.price {
-  after: &#8399;
+
+.container.video {
+  height: 840px;
 }
