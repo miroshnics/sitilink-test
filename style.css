@@ -127,15 +127,19 @@ div.videocontainer {
   max-width: 100%;
   margin: 0 60px;
   border: 2px solid #35312D;
-  background: #35312D;
   text-align: center;
   padding: 5px;
+}
+
+.rounded-20 {
   border-radius: 20px;
 }
 
-h1.light {
+.dark, .dark h1 {
   color: #fff;
+  background: #35312D;
 }
+
 div.videocontainer div {
   display: inline-block;
   vertical-align: middle;
@@ -151,9 +155,22 @@ div.video {
 .cook-image {
   height: 450px;
   background: url('img/cook.png') no-repeat;
+  background-position: bottom;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
 }
 
 .about-text {
   padding-top: 50px;
   font-size: 18px;
+}
+
+.about-cook {
+
+  background: url('img/bg_potatoes.png') no-repeat;
+  background-position: top;
 }
